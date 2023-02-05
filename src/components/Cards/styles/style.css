@@ -1,0 +1,20 @@
+.card-item {
+    width: 400px;
+    height: 500px;
+}
+
+.register-now {
+    background: #7D0EF9;
+}
+
+.register-now:hover {
+    color: #7D0EF9;
+    border: 1px solid #7D0EF9;
+}
+
+@media only screen and (max-width: 767px) {
+    .card-item {
+        width: 200px;
+        height: 300px;
+    }
+}

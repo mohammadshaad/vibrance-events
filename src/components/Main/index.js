@@ -1,7 +1,8 @@
 import React from 'react'
 import '../../components/Main/styles/style.css'
 import banner from '../../assets/banner.webp'
-import Inputs from '../../components/Inputs'
+import Filters from '../../components/Filters'
+import Cards from '../../components/Cards'
 
 function index() {
     return (
@@ -15,7 +16,11 @@ function index() {
 
 
                     <div className='w-full flex items-center justify-center'>
-                        <Inputs />
+                        <Filters />
+                    </div>
+
+                    <div className='w-full flex flex-wrap items-center justify-center '>
+                        <Cards />
                     </div>
                 </div>
             </div>

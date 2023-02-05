@@ -2,6 +2,11 @@
   color: black;
 }
 
+.appFilters {
+    background: #BD7DFB;
+    border: 2px solid #7D0EF9;
+}
+
 
 @media only screen and (max-width: 767px) {
   .dropdowns {
@@ -16,7 +21,7 @@
     font-size: 12px;
   }
 
-  .label {
+  .filter-item {
     font-size: 10px;
   }
 
