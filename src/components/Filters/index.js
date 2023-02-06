@@ -11,7 +11,7 @@ function Index() {
     return (
         <>
             <div className='w-full h-full flex flex-col items-center justify-center gap-6'>
-                <div className='w-full flex flex-wrap items-center justify-center gap-2 md:gap-12'>
+                <div className='filters-wrapper w-full flex items-center justify-center gap-2 md:gap-12'>
 
                     <Menu as="div" className="relative inline-block text-left">
                         <div>
@@ -348,7 +348,7 @@ function Index() {
                 <div className='flex items-center justify-start gap-2 md:gap-6 w-full md:w-3/4 h-full'>
                     <div className='appFilters flex items-center justify-center gap-2 rounded-full px-2 py-0.5 md:px-6 md:py-2'>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 md:w-6 md:h-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 md:w-5 md:h-5">
                                 <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
                             </svg>
                         </div>
@@ -358,7 +358,7 @@ function Index() {
                     </div>
                     <div className='appFilters flex items-center justify-center gap-2 rounded-full px-2 py-0.5 md:px-6 md:py-2'>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 md:w-6 md:h-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 md:w-5 md:h-5">
                                 <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
                             </svg>
                         </div>
@@ -368,7 +368,7 @@ function Index() {
                     </div>
                     <div className='appFilters flex items-center justify-center gap-2 rounded-full px-2 py-0.5 md:px-6 md:py-2'>
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 md:w-6 md:h-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-4 h-4 md:w-5 md:h-5">
                                 <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.72 6.97a.75.75 0 10-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 101.06 1.06L12 13.06l1.72 1.72a.75.75 0 101.06-1.06L13.06 12l1.72-1.72a.75.75 0 10-1.06-1.06L12 10.94l-1.72-1.72z" clip-rule="evenodd" />
                             </svg>
                         </div>
