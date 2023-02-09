@@ -7,7 +7,7 @@ function index() {
     <>
       <div className='flex items-center justify-center'>
         <div className='flex items-center justify-center'>
-          <div className='card-item flex items-center justify-center flex-col border border-black rounded-lg md:rounded-xl'>
+          <div className='card-item flex items-center justify-center flex-col border border-black rounded-lg md:rounded-xl hover:bg-white cursor-pointer duration-200 transition-all'>
             <div className='flex items-center justify-center m-2 md:m-5 flex-col gap-4'>
               <div className='card-image'>
                 <img src={poster} alt='event-poster' />

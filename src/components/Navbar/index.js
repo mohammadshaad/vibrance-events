@@ -7,21 +7,17 @@ function Index() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="flex items-center justify-center">
-            <nav className="navbar w-11/12 mt-5">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <div className="flex items-center justify-between h-16">
-                        <div className="flex items-center w-full">
-                            <div className="flex-shrink-0">
+            <nav className="navbar w-11/12 mt-5 flex items-center justify-center">
+                <div className=" px-4 sm:px-6 lg:px-8 w-full">
+                    <div className="flex items-center justify-between w-full h-16 ">
+                        <div className="flex items-center justify-between w-full">
+                            <div className="">
                                 <a href="/">
-                                    <img
-                                        className="w-20 md:w-full"
-                                        src={logo}
-                                        alt="Workflow"
-                                    />
+                                    <p className="logo text-4xl font-bold">VIBRANCE'23</p>
                                 </a>
                             </div>
-                            <div className="hidden md:block w-full">
-                                <div className="ml-10 flex items-baseline space-x-4 justify-between">
+                            <div className="hidden md:block w-full max-w-5xl">
+                                <div className=" ml-10 flex items-baseline space-x-4 justify-between ">
                                     <a
                                         href="/"
                                         className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-bold"

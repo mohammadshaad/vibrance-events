@@ -3,15 +3,19 @@ import '../../components/Main/styles/style.css'
 import banner from '../../assets/banner.webp'
 import Filters from '../../components/Filters'
 import Cards from '../../components/Cards'
+import rocket from '../../assets/rocket.svg'
 
 function index() {
     return (
         <>
 
             <div className='main-container flex items-center justify-center w-full h-auto'>
-                <div className='main-wrapper flex items-center justify-start flex-col w-full h-full m-5 md:m-10 gap-5 md:gap-10'>
-                    <div>
-                        <img src={banner} alt='banner' className='banner-image mt-5 md:mt-10 duration-300 transition-all' />
+                <div className='main-wrapper flex items-center justify-center flex-col w-full h-full m-5 md:m-10 gap-5 md:gap-10'>
+                    <div className='banner w-full h-full flex items-end justify-start'>
+                        <img className='absolute rocket mb-3' src={rocket} alt='' />
+                        <div className='w-full h-full flex items-center justify-center'>
+                            <img src={banner} alt='banner' className='banner-image mt-5 md:mt-10 duration-300 transition-all' />
+                        </div>
                     </div>
 
 

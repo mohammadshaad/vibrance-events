@@ -2,6 +2,11 @@
     --Blue: #262A43;
 }
 
+.logo {
+    font-family: 'Naughty Monster', sans-serif;
+    color: white;
+}
+
 .navbar {
     background: var(--Blue);
     border-radius: 12px;
