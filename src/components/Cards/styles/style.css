@@ -21,15 +21,15 @@
 @media only screen and (max-width: 767px) {
   .card-item {
     width: 250px;
-    height: 380px;
+    height: 230px;
   }
 
   .event-description {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .event-more-details {
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .register-now {

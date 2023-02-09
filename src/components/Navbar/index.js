@@ -7,13 +7,13 @@ function Index() {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="flex items-center justify-center">
-            <nav className="navbar w-11/12 mt-5 flex items-center justify-center">
+            <nav className="navbar w-11/12 mt-5">
                 <div className=" px-4 sm:px-6 lg:px-8 w-full">
                     <div className="flex items-center justify-between w-full h-16 ">
                         <div className="flex items-center justify-between w-full">
                             <div className="">
                                 <a href="/">
-                                    <p className="logo text-4xl font-bold">VIBRANCE'23</p>
+                                    <p className="logo text-2xl md:text-4xl font-bold">VIBRANCE'23</p>
                                 </a>
                             </div>
                             <div className="hidden md:block w-full max-w-5xl">
