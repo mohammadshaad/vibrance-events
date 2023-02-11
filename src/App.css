@@ -2,3 +2,11 @@ body {
   background: #faeafd;
   font-family: "Fredoka", sans-serif;
 }
+
+.font-main {
+  font-family: "NaughtyMonster";
+}
+.font-secondary {
+  font-family: "Fredoka";
+}
+

@@ -14,14 +14,13 @@
 }
 
 .register-now:hover {
-  box-shadow: 5px 5px 0px #2F2265;
-  background: #7d0ef9;
+  background: #48019a;
 }
 
 @media only screen and (max-width: 767px) {
   .card-item {
     width: 250px;
-    height: 230px;
+    height: 350px;
   }
 
   .event-description {

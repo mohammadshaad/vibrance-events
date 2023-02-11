@@ -7,9 +7,9 @@ function index() {
     <>
       <div className='flex items-center justify-center'>
         <div className='flex items-center justify-center'>
-          <div className='card-item flex items-center justify-center flex-col border border-black rounded-lg md:rounded-xl hover:bg-white cursor-pointer duration-200 transition-all'>
+          <div className='group card-item flex items-center justify-center flex-col border border-black rounded-lg md:rounded-xl hover:bg-white cursor-pointer duration-200 transition-all'>
             <div className='flex items-center justify-center m-2 md:m-5 flex-col gap-4'>
-              <div className='flex items-start justify-center md:flex-col gap-2'> 
+              <div className='flex items-center justify-center flex-col gap-2'> 
                 <div className='card-image'>
                   <img src={poster} alt='event-poster' className='w-60 h-50 md:w-full md:h-full'/>
                 </div>
@@ -18,8 +18,8 @@ function index() {
                 </div>
               </div>
               <div className='flex items-center justify-start w-full h-full'>
-                <div className='flex items-center md:items-start justify-center md:flex-col gap-2 md:gap-3 w-full'>
-                  <div className='flex items-center justify-center bg-white rounded-full px-2 py-0.5 gap-1 md:px-3 md:py-1.4 md:gap-2'>
+                <div className='flex items-start justify-center flex-col gap-2 md:gap-3 w-full'>
+                  <div className='flex items-center justify-center bg-white rounded-full px-2 py-0.5 gap-1 md:px-3 md:py-1.4 md:gap-2 group-hover:border-[#7d0ef9] border border-[white] duration-200 transition-all'>
                     <div className=''>
                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 md:w-4 md:h-4">
                         <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
@@ -32,7 +32,7 @@ function index() {
                   </div>
 
                   <div className='flex items-center justify-start w-full gap-2 md:gap-4'>
-                    <div className='flex items-center justify-center gap-1 md:gap-2 rounded-full px-2 py-0.5 md:px-3 md:py-1.4 bg-white'>
+                    <div className='flex items-center justify-center gap-1 md:gap-2 rounded-full px-2 py-0.5 md:px-3 md:py-1.4 bg-white group-hover:border-[#7d0ef9] border border-[white] duration-200 transition-all'>
                       <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-3 h-3 md:w-4 md:h-4">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -43,7 +43,7 @@ function index() {
                         Location
                       </div>
                     </div>
-                    <div className='flex items-center justify-center gap-1 md:gap-2 rounded-full px-2 py-0.5 md:px-3 md:py-1.4 bg-white'>
+                    <div className='flex items-center justify-center gap-1 md:gap-2 rounded-full px-2 py-0.5 md:px-3 md:py-1.4 bg-white group-hover:border-[#7d0ef9] border border-[white] duration-200 transition-all'>
                       <div>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-3 h-3 md:w-4 md:h-4">
                           <path stroke-linecap="round" stroke-linejoin="round" d="M15 8.25H9m6 3H9m3 6l-3-3h1.5a3 3 0 100-6M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

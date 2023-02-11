@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from '../../assets/logo.png'
 import { Transition } from "@headlessui/react";
 import '../../components/Navbar/styles/style.css'
 
@@ -8,47 +7,47 @@ function Index() {
     return (
         <div className="flex items-center justify-center">
             <nav className="navbar w-11/12 mt-5">
-                <div className=" px-4 sm:px-6 lg:px-8 w-full">
+                <div className="px-4 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto rounded-xl">
                     <div className="flex items-center justify-between w-full h-16 ">
                         <div className="flex items-center justify-between w-full">
-                            <div className="">
+                            <div className="flex-shrink-0">
                                 <a href="/">
-                                    <p className="logo text-2xl md:text-4xl font-bold">VIBRANCE'23</p>
+                                    <p className="logo text-[40px] font-bold">VIBRANCE'23</p>
                                 </a>
                             </div>
-                            <div className="hidden md:block w-full max-w-5xl">
-                                <div className=" ml-10 flex items-baseline space-x-4 justify-between ">
+                            <div className="hidden md:block">
+                                <div className="navs ml-10 flex items-baseline space-x-4 justify-between ">
                                     <a
                                         href="/"
-                                        className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-bold"
+                                        className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-base font-bold"
                                     >
                                         events
                                     </a>
 
                                     <a
                                         href="/"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         pro shows
                                     </a>
 
                                     <a
                                         href="/"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         merchandise
                                     </a>
 
                                     <a
                                         href="/"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         sponsors
                                     </a>
 
                                     <a
                                         href="/"
-                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         team
                                     </a>
