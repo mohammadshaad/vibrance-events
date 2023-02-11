@@ -7,8 +7,16 @@
   font-family: "NaughtyMonster";
   src: local("NaughtyMonster"),
    url("./fonts/naughty-monster/NaughtyMonster.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "NaughtyMonster";
+  src: local("NaughtyMonster"),
+   url("./fonts/naughty-monster/NaughtyMonster.ttf") format("truetype");
   font-weight: normal;
 }
+
 @font-face {
   font-family: "Fredoka";
   src: local("Fredoka"),
