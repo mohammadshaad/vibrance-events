@@ -40,14 +40,6 @@ function index() {
 
                     <div className='w-full h-full flex-wrap gap-12 flex items-center justify-center'>
                         <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
-                        <Cards />
                     </div>
                 </div>
             </div>
