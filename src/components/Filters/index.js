@@ -135,8 +135,8 @@ function Index() {
         <>
             <div className='w-full h-full flex flex-col items-center justify-center gap-6'>
 
-                <div className='filters flex md:flex-row flex-col-reverse justify-center lg:justify-evenly items-center py-5 lg:space-x-52 md:space-x-20 md:space-y-0 mx-3 w-10/12'>
-                    <div className='flex flex-wrap md:space-x-5 mt-5 gap-2 md:mt-0 items-center justify-center w-full'>
+                <div className='filters max-w-5xl flex md:flex-row flex-col-reverse justify-between items-center py-5 lg:space-x-52 md:space-x-20 md:space-y-0 mx-3 w-10/12'>
+                    <div className='flex flex-wrap lg:space-x-5 mt-8 gap-2 md:mt-0 items-center justify-center md:justify-start lg:justify-start w-full'>
                         <Select styles={customStyles} placeholder="Type" options={optionsType} className=''/>
                         <Select styles={customStyles} placeholder="Club" options={optionsClub} />
                         <Select styles={customStyles} placeholder="Venue" options={optionsVenue} />
